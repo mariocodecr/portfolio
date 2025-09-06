@@ -333,6 +333,7 @@ export function ContactSection() {
                               href={method.href}
                               target={method.title !== "Email" ? "_blank" : undefined}
                               rel={method.title !== "Email" ? "noopener noreferrer" : undefined}
+                              download={method.title === "Resume" ? "Mario Araya CV.pdf" : undefined}
                             >
                               <Send className="h-4 w-4" />
                             </Link>
