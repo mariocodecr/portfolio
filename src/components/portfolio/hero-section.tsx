@@ -299,6 +299,7 @@ export function HeroSection() {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Download Resume"
+                      download="Mario Araya CV.pdf"
                     >
                       <FileText className="h-5 w-5" />
                     </Link>
