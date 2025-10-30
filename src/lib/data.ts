@@ -6,7 +6,7 @@ export const portfolioData: PortfolioData = {
     title: "Software Engineer",
     email: "arayaroyo686@gmail.com",
     location: "Costa Rica",
-    bio: "Junior Software Engineer with 2+ years of experience building mobile and web applications. Proven ability to design and deliver scalable full stack solutions, with a strong foundation in system architecture, database design, API development, and cloud technologies. Active open source contributor with a focus on creating impactful and high-quality software projects.",
+    bio: "Software Engineer with 2+ years of experience building mobile and web applications. Proven ability to design and deliver scalable full stack solutions, with a strong foundation in system architecture, database design, API development, and cloud technologies. Active open source contributor with a focus on creating impactful and high-quality software projects.",
     avatar: "/images/Profile.JPG",
     resume: "/MarioArayaCV.pdf",
     social: {
