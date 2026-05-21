@@ -270,6 +270,175 @@ export const portfolioData: PortfolioData = {
           url: "https://github.com/Crypto-Jaguars/Revo-Backend/pull/6"
         }
       ]
+    },
+    {
+      id: "aqua-stark",
+      name: "Aqua Stark",
+      description: "Web3 game on StarkNet where players collect, breed, and evolve fish in a decentralized ecosystem. Features genetics-based mechanics, customizable aquariums, and true asset ownership through Cairo smart contracts.",
+      technologies: ["React", "TypeScript", "Vite", "TailwindCSS", "Cairo", "StarkNet", "Dojo Engine", "pnpm Workspaces"],
+      githubUrl: "https://github.com/mariocodecr/Aqua-Stark",
+      liveUrl: "https://aqua-stark.gitbook.io/aqua-stark/",
+      category: "blockchain",
+      pullRequests: [
+        {
+          id: "aqua-stark-breeding",
+          title: "Fish Breeding & Evolution System",
+          description: "Designed genetics-based breeding mechanics enabling unique fish lineages with on-chain ownership backed by Cairo smart contracts.",
+          technologies: ["Cairo", "StarkNet", "Dojo Engine", "TypeScript"],
+          url: "#"
+        },
+        {
+          id: "aqua-stark-marketplace",
+          title: "Decentralized Marketplace",
+          description: "Implemented a decentralized marketplace for trading fish and aquarium decorations with verifiable asset authenticity and scarcity.",
+          technologies: ["React", "Vite", "TailwindCSS", "Cairo", "StarkNet"],
+          url: "#"
+        }
+      ]
+    },
+    {
+      id: "offer-hub",
+      name: "Offer-Hub",
+      description: "Decentralized freelance marketplace connecting professionals and clients worldwide, leveraging blockchain payments and smart contracts to remove intermediaries and reduce fees.",
+      technologies: ["Next.js", "TypeScript", "Rust", "NestJS", "Supabase", "Stellar", "TailwindCSS"],
+      githubUrl: "https://github.com/mariocodecr/offer-hub",
+      category: "blockchain",
+      pullRequests: [
+        {
+          id: "offer-hub-backend",
+          title: "Backend APIs with Supabase Integration",
+          description: "Built REST endpoints and database migrations on Supabase to power freelancer profiles, job postings, and bidding workflows.",
+          technologies: ["NestJS", "TypeScript", "Supabase", "PostgreSQL", "REST API"],
+          url: "#"
+        },
+        {
+          id: "offer-hub-contracts",
+          title: "Smart Contract Payment Integration",
+          description: "Integrated Stellar-based smart contracts in Rust to enable trustless escrow and crypto payments between freelancers and clients.",
+          technologies: ["Rust", "Stellar", "Smart Contracts", "Next.js"],
+          url: "#"
+        }
+      ]
+    },
+    {
+      id: "expenses-tracker",
+      name: "Expenses Tracker",
+      description: "Full-stack expenses tracking application with categorization, real-time statistics, and responsive design. Dockerized FastAPI backend paired with a Next.js frontend.",
+      technologies: ["FastAPI", "Python", "Next.js", "TypeScript", "TailwindCSS", "Docker", "PostgreSQL"],
+      githubUrl: "https://github.com/mariocodecr/expenses-tracker",
+      category: "fullstack",
+      pullRequests: [
+        {
+          id: "expenses-tracker-api",
+          title: "FastAPI Backend with CRUD & Categorization",
+          description: "Implemented expense CRUD endpoints with category management and aggregated statistics, exposed through a typed FastAPI layer.",
+          technologies: ["FastAPI", "Python", "PostgreSQL", "REST API"],
+          url: "#"
+        },
+        {
+          id: "expenses-tracker-ui",
+          title: "Responsive Dashboard with Real-Time Updates",
+          description: "Built a responsive Next.js dashboard with TailwindCSS, delivering real-time expense summaries and category breakdowns.",
+          technologies: ["Next.js", "TypeScript", "TailwindCSS", "Docker"],
+          url: "#"
+        }
+      ]
+    },
+    {
+      id: "minibank",
+      name: "MiniBank",
+      description: "Production-grade digital banking platform with event-driven microservices, multi-currency operations, real-time FX processing, double-entry accounting, and security-first OIDC authentication.",
+      technologies: ["Java 21", "Spring Boot", "Next.js", "TypeScript", "Apache Kafka", "PostgreSQL", "Redis", "Keycloak", "Prometheus", "Grafana"],
+      githubUrl: "https://github.com/mariocodecr/MiniBank",
+      category: "fullstack",
+      pullRequests: [
+        {
+          id: "minibank-2",
+          title: "Accounts Service with Clean Architecture",
+          description: "Implemented the complete Accounts Service applying Clean/Hexagonal Architecture with comprehensive unit and integration test coverage.",
+          technologies: ["Java 21", "Spring Boot", "PostgreSQL", "JUnit", "Testcontainers"],
+          url: "https://github.com/mariocodecr/MiniBank/pull/2"
+        },
+        {
+          id: "minibank-3",
+          title: "Payment Processing Module",
+          description: "Built event-driven payment flows with Kafka, supporting cross-currency saga orchestration and outbox/inbox patterns for reliable delivery.",
+          technologies: ["Java 21", "Spring Boot", "Apache Kafka", "Apache Avro", "Saga Pattern"],
+          url: "https://github.com/mariocodecr/MiniBank/pull/3"
+        }
+      ]
+    },
+    {
+      id: "gym-os",
+      name: "GymOS",
+      description: "Web platform to manage CrossFit boxes and functional gyms — covering members, payments, expenses, attendance, workouts, rankings, and public content. Designed to evolve into a multi-tenant SaaS.",
+      technologies: ["NestJS", "Next.js", "TypeScript", "Prisma", "PostgreSQL", "React"],
+      githubUrl: "https://github.com/mariocodecr/gym-os",
+      category: "fullstack",
+      pullRequests: [
+        {
+          id: "gym-os-members",
+          title: "Members & Payments Management",
+          description: "Implemented member lifecycle, payment registration, and financial control flows to digitalize gym operations and improve retention.",
+          technologies: ["NestJS", "Prisma", "PostgreSQL", "TypeScript"],
+          url: "#"
+        },
+        {
+          id: "gym-os-wod",
+          title: "WOD & Rankings Module",
+          description: "Built workout-of-the-day publishing and athlete result tracking with leaderboards, giving coaches visibility and athletes a progression view.",
+          technologies: ["Next.js", "React", "TypeScript", "TailwindCSS"],
+          url: "#"
+        }
+      ]
+    },
+    {
+      id: "huellas-vivas",
+      name: "Huellas Vivas",
+      description: "Donation platform that helps raise funds for pets and animals requiring medical treatment or special care. Includes blockchain-based escrow logic, real-time progress tracking, and community interaction.",
+      technologies: ["Next.js", "TypeScript", "NestJS", "TailwindCSS", "PostgreSQL", "Stellar"],
+      githubUrl: "https://github.com/mariocodecr/HuellasVivas",
+      category: "fullstack",
+      pullRequests: [
+        {
+          id: "huellas-vivas-campaigns",
+          title: "Campaign Creation & Donation Flow",
+          description: "Built end-to-end donation campaigns with photo/video evidence, target tracking, and automatic completion when goals are reached.",
+          technologies: ["Next.js", "NestJS", "TypeScript", "PostgreSQL"],
+          url: "#"
+        },
+        {
+          id: "huellas-vivas-escrow",
+          title: "Stellar-Based Escrow & Community Interaction",
+          description: "Integrated blockchain escrow for secure donations and implemented threaded comments to drive engagement around each animal's case.",
+          technologies: ["Stellar", "NestJS", "Next.js", "TailwindCSS"],
+          url: "#"
+        }
+      ]
+    },
+    {
+      id: "core-banking-lite",
+      name: "Core Banking Lite",
+      description: "Enterprise-grade banking platform with JWT auth, role-based access (Admin/Advisor/Auditor/Client), idempotent multi-currency transfers using BCCR exchange rates, and ETF/mutual fund investments backed by real market data.",
+      technologies: ["Java 21", "Spring Boot 3", "Next.js 15", "React 19", "TypeScript", "PostgreSQL 16", "Redis 7", "TanStack Query", "Testcontainers"],
+      githubUrl: "https://github.com/mariocodecr/Core-Banking-Lite",
+      category: "fullstack",
+      pullRequests: [
+        {
+          id: "core-banking-1",
+          title: "Investment Module & Production Hardening",
+          description: "Delivered the ETF/mutual fund investment module with CLIENT role, BCCR/Alpha Vantage exchange rates, Redis caching, and production-grade observability.",
+          technologies: ["Java 21", "Spring Boot 3", "PostgreSQL", "Redis", "Alpha Vantage API"],
+          url: "https://github.com/mariocodecr/Core-Banking-Lite/pull/1"
+        },
+        {
+          id: "core-banking-3",
+          title: "Integration Test Hardening",
+          description: "Fixed insufficient-balance integration test to respect daily transfer limits, improving reliability of the CI pipeline.",
+          technologies: ["JUnit", "Testcontainers", "Spring Boot", "CI/CD"],
+          url: "https://github.com/mariocodecr/Core-Banking-Lite/pull/3"
+        }
+      ]
     }
   ],
   skills: {
