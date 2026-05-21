@@ -3,10 +3,10 @@ import { type PortfolioData } from "@/types/portfolio";
 export const portfolioData: PortfolioData = {
   personal: {
     name: "Mario Araya",
-    title: "Software Engineer",
+    title: "Software Developer — CI/CD & Build Engineering | C# / .NET",
     email: "arayaroyo686@gmail.com",
-    location: "Costa Rica",
-    bio: "Software Engineer with 2+ years of experience building mobile and web applications. Proven ability to design and deliver scalable full stack solutions, with a strong foundation in system architecture, database design, API development, and cloud technologies. Active open source contributor with a focus on creating impactful and high-quality software projects.",
+    location: "San José, Costa Rica",
+    bio: "Software Developer with 3+ years specializing in CI/CD and Build Engineering across C#, .NET Framework 4.8, and .NET Core ecosystems. Hands-on experience configuring GitHub Actions workflows, managing .sln/.csproj solutions with MSBuild and NuGet, and authoring PowerShell automation scripts. Proven track record migrating legacy pipelines to cloud-native platforms, integrating SAST tooling for shift-left security, and resolving complex build failures through root-cause analysis. Agile practitioner using Jira for PBI tracking and Git/GitHub for branching, Pull Request reviews, and conflict resolution across distributed teams.",
     avatar: "/images/Profile.JPG",
     resume: "/MarioArayaCV.pdf",
     social: {
@@ -14,10 +14,10 @@ export const portfolioData: PortfolioData = {
       linkedin: "https://www.linkedin.com/in/mariocodecr/"
     },
     professional: {
-      yearsOfExperience: 2,
+      yearsOfExperience: 3,
       workTypes: ["Remote", "Hybrid", "Freelance"],
       availability: "Available for full-time opportunities",
-      preferredRoles: ["Full-Stack Developer", "Frontend Developer", "Software Engineer"],
+      preferredRoles: ["Software Developer", "Build & CI/CD Engineer", "Full-Stack .NET Developer"],
       languages: {
         spanish: "Native",
         english: "Advanced (B2+)"
@@ -31,57 +31,68 @@ export const portfolioData: PortfolioData = {
   },
   experience: [
     {
+      id: "codingraph-2026",
+      company: "Codingraph",
+      role: "Full-Stack Software Developer",
+      duration: "5 months",
+      startDate: "Jan 2026",
+      description: "Architecting full-stack .NET solutions with automated CI/CD pipelines, integrating shift-left security practices and optimizing performance for thousands of active users.",
+      keyAchievements: [
+        "Automated build and deployment workflows to near-zero manual effort by configuring GitHub Actions CI/CD pipelines for .NET solutions with containerized Docker artifacts",
+        "Reduced application load times 30% (measured by K6 benchmarks) by refactoring .csproj dependencies, optimizing T-SQL queries, and tuning Entity Framework data-access layers",
+        "Strengthened shift-left security posture by integrating JWT authentication, RBAC, and NUnit/Moq regression coverage into CI workflows following secure coding standards",
+        "Boosted platform efficiency 25% for 2,000+ active users by architecting ASP.NET MVC features and REST APIs backed by SQL Server"
+      ],
+      technologies: ["C#", ".NET", "ASP.NET MVC", "REST APIs", "GitHub Actions", "Docker", "Entity Framework", "SQL Server", "T-SQL", "NUnit", "Moq", "K6", "JWT", "RBAC"],
+      workType: "Remote"
+    },
+    {
       id: "banco-nacional-2025",
       company: "Banco Nacional",
-      role: "IT Operations & Monitoring Specialist",
+      role: "IT Operations & Cloud Monitoring Engineer",
       duration: "7 months",
       startDate: "Feb 2025",
       endDate: "Aug 2025",
-      description: "Monitored critical banking systems and ensured high availability through enterprise-level monitoring tools, supporting anomaly detection and incident response.",
+      description: "Monitored high-availability banking systems through enterprise observability tooling, diagnosing performance bottlenecks and resolving mission-critical incidents under secure engineering standards.",
       keyAchievements: [
-        "Maintained 99.9% uptime for critical banking systems",
-        "Improved system performance through SQL-based analysis and monitoring",
-        "Enhanced decision-making efficiency through anomaly detection systems",
-        "Reduced incident response time by implementing proactive monitoring"
+        "Accelerated root-cause analysis on high-availability banking systems by diagnosing SQL Server and Oracle bottlenecks through query tuning, execution-plan analysis, and parallel workload reviews",
+        "Improved operational visibility across distributed teams by deploying Dynatrace and Grafana dashboards with alerting rules over Azure, Linux, and Windows environments",
+        "Resolved mission-critical incidents by executing structured response procedures aligned with secure engineering and source-control standards"
       ],
-      technologies: ["SQL", "Enterprise Monitoring Tools", "Incident Response", "System Analysis"],
-      teamSize: "5-10 specialists",
+      technologies: ["SQL Server", "Oracle", "Dynatrace", "Grafana", "Azure", "Linux", "Windows", "Query Tuning", "Incident Response"],
       workType: "Remote"
+    },
+    {
+      id: "only-dust-2024-2025",
+      company: "Only Dust",
+      role: "Full-Stack Software Developer (Freelance)",
+      duration: "16 months",
+      startDate: "May 2024",
+      endDate: "Aug 2025",
+      description: "Delivered scalable .NET components to distributed systems for an international open-source platform based in Paris, leading PR reviews and orchestrating GitFlow workflows.",
+      keyAchievements: [
+        "Reduced security vulnerabilities 30% by leading structured Pull Request reviews, peer code audits, and enforcing engineering quality gates with unit testing coverage",
+        "Delivered on-time releases for international contributors by orchestrating Git branching strategies, merge conflict resolution, and Pull Request workflows on GitHub",
+        "Improved transaction throughput 25% by developing scalable .NET components applying SOLID, Repository, and Service Layer patterns across distributed systems"
+      ],
+      technologies: [".NET", "C#", "Git", "GitHub", "GitFlow", "SOLID", "Repository Pattern", "Service Layer", "Unit Testing"],
+      teamSize: "International distributed contributors",
+      workType: "Freelance"
     },
     {
       id: "devlive-2024-2025",
       company: "Devlive",
-      role: "Software Developer",
+      role: "Software Engineer",
       duration: "6 months",
       startDate: "Aug 2024",
       endDate: "Jan 2025",
-      description: "Built and optimized features for multiple web applications, refactored legacy codebases applying SOLID principles, and delivered full stack solutions in collaboration with cross-functional teams.",
+      description: "Architected ASP.NET backend APIs and streamlined cloud deployments using Docker and CI/CD pipelines under Agile/Scrum methodology, while optimizing SQL Server reporting performance.",
       keyAchievements: [
-        "Improved load times and user experience by 30%",
-        "Reduced technical debt and increased maintainability by 40%",
-        "Ensured 100% alignment with business requirements",
-        "Accelerated release cycles by 20% through efficient development practices"
+        "Reduced technical debt across web applications by architecting ASP.NET backend APIs and managing .sln/.csproj structures using MVC, Factory, and Repository patterns",
+        "Streamlined cloud deployments across the SDLC by containerizing services with Docker, configuring CI/CD pipelines, and tracking PBIs in Jira during Agile/Scrum ceremonies",
+        "Optimized SQL Server reporting performance by refactoring queries and improving schema design, cutting response times measurably"
       ],
-      technologies: ["JavaScript", "TypeScript", "React", "Full Stack Development", "Legacy Refactoring"],
-      teamSize: "3-8 developers",
-      workType: "Remote"
-    },
-    {
-      id: "codingraph-2023-2024",
-      company: "Codingraph",
-      role: "Mobile & Web Developer",
-      duration: "8 months",
-      startDate: "Dec 2023",
-      endDate: "Jul 2024",
-      description: "Built and optimized e-commerce platforms handling hundreds of daily transactions, and designed a healthcare mobile app with scheduling and communication features.",
-      keyAchievements: [
-        "Enhanced e-commerce platform stability and user retention",
-        "Reduced appointment conflicts by 35% in healthcare mobile app",
-        "Handled hundreds of daily transactions with zero downtime",
-        "Delivered mobile and web solutions meeting complex business requirements"
-      ],
-      technologies: ["Mobile Development", "E-commerce", "Healthcare Apps", "JavaScript", "React"],
-      teamSize: "2-6 developers",
+      technologies: ["ASP.NET", "C#", ".NET", "Docker", "CI/CD", "SQL Server", "Jira", "Agile/Scrum", "MVC", "Factory Pattern", "Repository Pattern"],
       workType: "Remote"
     }
   ],
